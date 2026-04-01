@@ -6,20 +6,6 @@ Repository for the datasets, structural models, analysis outputs, and computatio
 Luna-Aragão, M. A. de, Andrade, F. A. de, Penna, S. R. M., Maciel, L. S., Rodrigues-Paixão, L. M., Lemos, A. B., Ferreira, J. D. C., Aragão, F. J. L., Pandolfi, V., & Benko-Iseppon, A. M. (2025). Unveiling Three Functionally Diverse Isoforms of eIF4E in Cowpea Through a Multi-Omics Approach. Agronomy, 15, xxx. https://doi.org/10.3390/xxxxx
 ```
 
-## Manuscript status
-
-This repository supports a manuscript currently in **pre-proof / production stage**.  
-Minor changes may still occur in the final published version, including:
-
-- article metadata
-- volume, issue, and page numbers
-- DOI
-- supplementary file numbering
-- figure numbering
-- wording in methods/results sections
-
-Until the final version is released, please treat this repository as the **author-curated public data companion** for the study.
-
 ## Overview
 
 The eukaryotic translation initiation factor 4E (eIF4E) family plays a central role in cap-dependent translation and is also recurrently associated with susceptibility or resistance to potyviruses in plants. In cowpea (*Vigna unguiculata*), this repository documents a multi-omics and structural bioinformatics investigation of three cap-binding protein isoforms:
@@ -29,16 +15,6 @@ The eukaryotic translation initiation factor 4E (eIF4E) family plays a central r
 - **nCBP**
 
 The study integrates sequence mining, chromosomal mapping, gene structure inspection, synteny analysis, phylogenetic reconstruction, structural modeling, model validation, molecular dynamics simulations, and electrostatic surface analysis to characterize these isoforms at genomic, evolutionary, and structural levels.
-
-## Why this repository exists
-
-This repository was created to:
-
-- make the study reproducible
-- provide public access to curated sequence and structural datasets
-- expose the computational logic behind the analyses
-- preserve raw and processed outputs used in the manuscript
-- facilitate downstream reuse for allele mining, comparative genomics, structural biology, and crop improvement studies
 
 ## Study rationale
 

@@ -2,7 +2,7 @@
 
 Repository for the datasets, structural models, analysis outputs, and computational workflows associated with the manuscript:
 
-```markdown
+```text
 Luna-Aragão, M. A. de, Andrade, F. A. de, Penna, S. R. M., Maciel, L. S., Rodrigues-Paixão, L. M., Lemos, A. B., Ferreira, J. D. C., Aragão, F. J. L., Pandolfi, V., & Benko-Iseppon, A. M. (2025). Unveiling Three Functionally Diverse Isoforms of eIF4E in Cowpea Through a Multi-Omics Approach. Agronomy, 15, xxx. https://doi.org/10.3390/xxxxx
 ```
 
@@ -137,63 +137,12 @@ Electrostatic calculations were used to characterize the physicochemical landsca
 This repository is organized to separate raw data, processed outputs, structural files, and executable workflows.
 
 ```text
-.
 ├── README.md
 ├── LICENSE
-├── CITATION.cff
-├── .gitignore
 ├── data/
 │   ├── raw/
-│   │   ├── sanger_traces/
-│   │   ├── reference_sequences/
-│   │   ├── genome_annotations/
-│   │   └── primers/
-│   ├── processed/
-│   │   ├── cds/
-│   │   ├── amino_acid_sequences/
-│   │   ├── curated_phylogeny_dataset/
-│   │   ├── alignments/
-│   │   ├── chromosomal_coordinates/
-│   │   └── synteny_tables/
-│   └── metadata/
-│       ├── sample_metadata.tsv
-│       ├── cultivar_phenotypes.tsv
-│       └── file_manifest.tsv
-├── results/
-│   ├── sequence_identity/
-│   ├── gene_structure/
-│   ├── chromosomal_mapping/
-│   ├── synteny/
-│   ├── phylogeny/
-│   ├── domain_annotation/
-│   ├── structural_validation/
-│   ├── md/
-│   │   ├── rmsd/
-│   │   ├── rmsf/
-│   │   ├── bfactor/
-│   │   ├── rg/
-│   │   ├── hbonds/
-│   │   ├── sasa/
-│   │   └── mdmat/
-│   └── electrostatics/
-├── models/
-│   ├── alphafold3/
-│   │   ├── pdb/
-│   │   ├── pae/
-│   │   ├── plddt/
-│   │   └── validation_reports/
-│   └── superpositions/
+│   └── processed/
 ├── figures/
-│   ├── main/
-│   └── supplementary/
-├── scripts/
-│   ├── sequence_processing/
-│   ├── phylogeny/
-│   ├── synteny/
-│   ├── structure/
-│   ├── md/
-│   └── electrostatics/
-└── docs/
-    ├── methods/
-    ├── software_versions/
-    └── workflow_notes/
+├── results/
+└── scripts/
+```

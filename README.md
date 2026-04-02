@@ -14,11 +14,8 @@ This repository is organized to separate raw data, processed outputs, structural
 ├── README.md
 ├── LICENSE
 ├── data/
-│   ├── raw/
-│   └── processed/
-├── figures/
-├── results/
-└── scripts/
+    ├── raw/
+    └── processed/
 ```
 
 ## Overview

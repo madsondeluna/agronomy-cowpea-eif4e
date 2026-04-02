@@ -11,11 +11,20 @@ Luna-Aragão, M. A. de, Andrade, F. A. de, Penna, S. R. M., Maciel, L. S., Rodri
 This repository is organized to separate raw data, processed outputs, structural files, and executable workflows.
 
 ```text
+.
 ├── README.md
 ├── LICENSE
 └── data/
     ├── raw/
+    │   ├── primer-sequences/
+    │   └── sequencing-outputs/
     └── processed/
+        ├── alignments/
+        ├── aminoacid-sequences/
+        ├── cds-sequences/
+        ├── phylogeny/
+        ├── synteny/
+        └── theorical-models/
 ```
 
 ## Overview

@@ -6,6 +6,21 @@ Repository for the datasets, structural models, analysis outputs, and computatio
 Luna-Aragão, M. A. de, Andrade, F. A. de, Penna, S. R. M., Maciel, L. S., Rodrigues-Paixão, L. M., Lemos, A. B., Ferreira, J. D. C., Aragão, F. J. L., Pandolfi, V., & Benko-Iseppon, A. M. (2025). Unveiling Three Functionally Diverse Isoforms of eIF4E in Cowpea Through a Multi-Omics Approach. Agronomy, 15, xxx. https://doi.org/10.3390/xxxxx
 ```
 
+## Repository contents
+
+This repository is organized to separate raw data, processed outputs, structural files, and executable workflows.
+
+```text
+├── README.md
+├── LICENSE
+├── data/
+│   ├── raw/
+│   └── processed/
+├── figures/
+├── results/
+└── scripts/
+```
+
 ## Overview
 
 The eukaryotic translation initiation factor 4E (eIF4E) family plays a central role in cap-dependent translation and is also recurrently associated with susceptibility or resistance to potyviruses in plants. In cowpea (*Vigna unguiculata*), this repository documents a multi-omics and structural bioinformatics investigation of three cap-binding protein isoforms:
@@ -20,9 +35,9 @@ The study integrates sequence mining, chromosomal mapping, gene structure inspec
 
 Cowpea is an agronomically important legume and a major crop in several regions of the world. Members of the eIF4E family are biologically relevant because they simultaneously:
 
-- regulate cap-dependent protein synthesis
-- participate in RNA metabolism
-- may act as host susceptibility factors exploited by potyviruses such as CABMV
+- Regulate cap-dependent protein synthesis
+- Participate in RNA metabolism
+- May act as host susceptibility factors exploited by potyviruses such as CABMV
 
 Despite the relevance of these proteins, the structural determinants and evolutionary organization of the cowpea eIF4E family were still insufficiently characterized. This repository addresses that gap by providing data and analyses for the three identified cowpea isoforms.
 
@@ -38,111 +53,3 @@ The study supports the following main conclusions:
 6. Molecular dynamics analyses indicate overall structural stability for all isoforms across simulated systems.
 7. **eIF(iso)4E** showed the strongest signature of **compactness and structural stability**, making it a particularly relevant target for future functional and applied studies.
 8. Electrostatic surface analyses revealed a **conserved electropositive cap-binding cleft**, consistent with functional competence for mRNA cap recognition.
-
-## Experimental and computational scope
-
-The repository covers data and outputs related to the following analytical layers.
-
-### 1. Sequence mining and isoform identification
-
-Annotated genes encoding eIF4E-family proteins were retrieved from public plant genome resources and validated by similarity searches against experimentally characterized sequences. This step supported the identification of cowpea orthologs/paralogs for:
-
-- eIF4E
-- eIF(iso)4E
-- nCBP
-
-### 2. Primer design and experimental sequence acquisition
-
-Isoform-specific primers were designed to amplify the complete coding sequences of the three genes from cDNA derived from six cowpea cultivars with contrasting CABMV phenotypes.
-
-The cultivars analyzed were:
-
-- Bajão
-- Boca Negra
-- BR14 Mulato
-- IT85F-2687
-- Pingo de Ouro
-- Santo Inácio
-
-These experimental sequences provide the cultivar-level foundation for the comparative analyses presented here.
-
-### 3. Chromosomal mapping and structural genomics
-
-Transcript/gene sequences were mapped to the reference cowpea genome to establish:
-
-- chromosomal location
-- exon-intron organization
-- structural conservation among isoforms
-- gene family expansion patterns
-
-### 4. Synteny and comparative genomics
-
-Comparative analyses were used to examine collinearity and genomic conservation between cowpea and other legumes, especially:
-
-- *Phaseolus vulgaris*
-- *Glycine max*
-- *Lens culinaris*
-
-These analyses help contextualize the origin, conservation, and rearrangement patterns of the eIF4E gene family in legumes.
-
-### 5. Phylogenetic reconstruction
-
-A curated multi-species dataset was used to reconstruct the evolutionary history of the eIF4E family in Fabaceae and related taxa. Trees were inferred using both:
-
-- **Maximum Likelihood**
-- **Neighbor-Joining**
-
-This enabled the discrimination of major isoform classes and the positioning of cowpea proteins within a broader evolutionary framework.
-
-### 6. Protein sequence comparison and conserved signatures
-
-Translated amino acid sequences were aligned to identify:
-
-- conserved motifs
-- hallmark aromatic residues
-- domain preservation
-- variable regions, especially in N-terminal segments
-
-This step supports the interpretation of how sequence conservation relates to structural and functional maintenance.
-
-### 7. Structural modeling and validation
-
-Three-dimensional models were generated for all isoforms and assessed using multiple quality metrics. Validation procedures were included to evaluate:
-
-- confidence of predicted folds
-- stereochemical plausibility
-- energetic reasonableness
-- suitability for downstream simulation
-
-### 8. Molecular dynamics simulations
-
-Molecular dynamics simulations were performed to move beyond static structural predictions and assess the conformational behavior of the proteins over time. The analyses include:
-
-- **RMSD**
-- **RMSF**
-- **B-factor mapping**
-- **Radius of Gyration (RG)**
-- **Hydrogen Bonds (HBs)**
-- **Solvent Accessible Surface Area (SASA)**
-- **Minimum Distance Matrices (MDMAT)**
-
-These outputs are relevant for evaluating stability, flexibility, compactness, and preservation of tertiary contacts.
-
-### 9. Electrostatic surface potential
-
-Electrostatic calculations were used to characterize the physicochemical landscape of the cap-binding region. The conserved electropositive cleft observed across models supports the structural interpretation of ligand recognition.
-
-## Repository contents
-
-This repository is organized to separate raw data, processed outputs, structural files, and executable workflows.
-
-```text
-├── README.md
-├── LICENSE
-├── data/
-│   ├── raw/
-│   └── processed/
-├── figures/
-├── results/
-└── scripts/
-```

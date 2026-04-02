@@ -13,7 +13,7 @@ This repository is organized to separate raw data, processed outputs, structural
 ```text
 ├── README.md
 ├── LICENSE
-├── data/
+└── data/
     ├── raw/
     └── processed/
 ```

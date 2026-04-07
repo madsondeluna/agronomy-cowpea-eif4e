@@ -1,7 +1,7 @@
 # Unveiling Three Functionally Diverse Isoforms of eIF4E in Cowpea Through a Multi-Omics Approach
 
 
-![Graphical abstract](graphical-abstract/diagram.png)
+![Graphical abstract](graphical-abstract/diagram.svg)
 
 
 Repository for the datasets, structural models, analysis outputs, and computational workflows associated with the manuscript:

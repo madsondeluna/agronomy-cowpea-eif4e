@@ -12,27 +12,6 @@ Luna-Aragão, M.A.; Alves de Andrade, F.; Penna, S.R.M.; Maciel, L.S.; Rodrigues
 
 > **Note:** This article belongs to the Special Issue [Recent Advances in Legume Crop Protection - 2nd Edition](https://www.mdpi.com/journal/agronomy/special_issues/0X05PJMX91).
 
-## Repository contents
-
-This repository is organized to separate raw data, processed outputs, structural files, and executable workflows.
-
-```text
-.
-├── README.md
-├── LICENSE
-└── data/
-    ├── raw/
-    │   ├── primer-sequences/
-    │   └── sequencing-outputs/
-    └── processed/
-        ├── alignments/
-        ├── aminoacid-sequences/
-        ├── cds-sequences/
-        ├── phylogeny/
-        ├── synteny/
-        └── theorical-models/
-```
-
 ## Overview
 
 The eukaryotic translation initiation factor 4E (eIF4E) family plays a central role in cap-dependent translation and is also recurrently associated with susceptibility or resistance to potyviruses in plants. In cowpea (*Vigna unguiculata*), this repository documents a multi-omics and structural bioinformatics investigation of three cap-binding protein isoforms:

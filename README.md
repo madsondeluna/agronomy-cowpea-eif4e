@@ -7,8 +7,10 @@
 Repository for the datasets, structural models, analysis outputs, and computational workflows associated with the manuscript:
 
 ```text
-Luna-Aragão, M. A. de, Andrade, F. A. de, Penna, S. R. M., Maciel, L. S., Rodrigues-Paixão, L. M., Lemos, A. B., Ferreira, J. D. C., Aragão, F. J. L., Pandolfi, V., & Benko-Iseppon, A. M. (2025). Unveiling Three Functionally Diverse Isoforms of eIF4E in Cowpea Through a Multi-Omics Approach. Agronomy, 15, xxx. https://doi.org/10.3390/xxxxx
+Luna-Aragão, M.A.; Alves de Andrade, F.; Penna, S.R.M.; Maciel, L.S.; Rodrigues-Paixão, L.M.; Lemos, A.B.; Ferreira, J.D.C.; Aragão, F.J.L.; Pandolfi, V.; Benko-Iseppon, A.M. Unveiling Three Functionally Diverse Isoforms of eIF4E in Cowpea Through a Multi-Omics Approach. Agronomy 2026, 16, 766. https://doi.org/10.3390/agronomy16070766
 ```
+
+> **Note:** This article belongs to the Special Issue [Recent Advances in Legume Crop Protection - 2nd Edition](https://www.mdpi.com/journal/agronomy/special_issues/0X05PJMX91).
 
 ## Repository contents
 
@@ -63,3 +65,11 @@ The study supports the following main conclusions:
 6. Molecular dynamics analyses indicate overall structural stability for all isoforms across simulated systems.
 7. **eIF(iso)4E** showed the strongest signature of **compactness and structural stability**, making it a particularly relevant target for future functional and applied studies.
 8. Electrostatic surface analyses revealed a **conserved electropositive cap-binding cleft**, consistent with functional competence for mRNA cap recognition.
+
+## Funding / Acknowledgments
+
+This research was funded by the CNPq (National Council for Scientific and Technological Development) (financial support numbers: 404070/2024-8, 406657/2023-8 and 406048/2022-3); CNPq (167660/2022-5) and FAPEMIG (Minas Gerais State Research Support Foundation) (23072.242088/2024-72) grants. The authors acknowledge the National Laboratory for Scientific Computing (LNCC) for providing high-performance computing resources through the Santos Dumont supercomputer, which supported the computational analyses performed in this study.
+
+## Contact
+
+For questions, additional files, or inquiries regarding the experiments, please send an email to madsondeluna@gmail.com.
